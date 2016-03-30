@@ -1,0 +1,38 @@
+{
+  "name": "grunt-umi-fis",
+  "version": "2.0.0",
+  "description": "grunt-fis插件，用于静态文件版本化管理",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "homepage": "http://gitlab.umiit.cn/tool/grunt-umi-fis",
+  "author": {
+    "name": "xiejun",
+    "email": "xiejun@umiit.cn"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://gitlab.umiit.cn/tool/grunt-umi-fis.git"
+  },
+  "bugs": {
+    "url": "http://gitlab.umiit.cn/tool/grunt-umi-fis/issues"
+  },
+  "publishConfig": {
+    "registry": "http://m2.umiit.cn/content/repositories/npm-umi/"
+  },
+  "keywords": [
+    "grunt-plugin",
+    "fis"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">= 0.12.0"
+  },
+  "dependencies": {
+    "fis": "^1.9.37",
+    "fis-optimizer-html-compress": "0.0.7"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "^1.0.0"
+  }
+}
